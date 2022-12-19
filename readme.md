@@ -1,4 +1,4 @@
-# yewのテンプレート
+# YewのInputチュートリアル
 ```
 trunk serve
 ```
