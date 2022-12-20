@@ -84,10 +84,10 @@ pub fn multi_input_v1(multi_input_props: &MultiInputProps) -> Html {
 
     let onsubmit = {
         let parent_onsubmit = multi_input_props.onsubmit.clone();
-        let checkbox_handle = checkbox_handle.clone();
-        let text_handle = text_handle.clone();
-        let select_handle = select_handle.clone();
-        let radio_handle = radio_handle.clone();
+        let checkbox_handle = checkbox_handle;
+        let text_handle = text_handle;
+        let select_handle = select_handle;
+        let radio_handle = radio_handle;
 
         Callback::from(move |_: MouseEvent| {
             let multi_input_value = MultiInputValue {
